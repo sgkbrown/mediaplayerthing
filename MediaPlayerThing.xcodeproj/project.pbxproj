@@ -14,6 +14,10 @@
 		EC6DF9771A13B70900CF6FB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6DF9761A13B70900CF6FB3 /* Images.xcassets */; };
 		EC6DF97A1A13B70900CF6FB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6DF9781A13B70900CF6FB3 /* LaunchScreen.xib */; };
 		EC6DF9861A13B70900CF6FB3 /* MediaPlayerThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6DF9851A13B70900CF6FB3 /* MediaPlayerThingTests.m */; };
+		EC9BAFB31A13C47E00441C1E /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9BAFB21A13C47E00441C1E /* playbutton.png */; };
+		EC9BAFB51A13EBB100441C1E /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9BAFB41A13EBB100441C1E /* pausebutton.png */; };
+		EC9BAFB71A13F72F00441C1E /* prevbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9BAFB61A13F72E00441C1E /* prevbutton.png */; };
+		EC9BAFB91A13F73400441C1E /* nextbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9BAFB81A13F73400441C1E /* nextbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		EC6DF97F1A13B70900CF6FB3 /* MediaPlayerThingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerThingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6DF9841A13B70900CF6FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6DF9851A13B70900CF6FB3 /* MediaPlayerThingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerThingTests.m; sourceTree = "<group>"; };
+		EC9BAFB21A13C47E00441C1E /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		EC9BAFB41A13EBB100441C1E /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		EC9BAFB61A13F72E00441C1E /* prevbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevbutton.png; sourceTree = "<group>"; };
+		EC9BAFB81A13F73400441C1E /* nextbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextbutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,10 @@
 				EC6DF9711A13B70900CF6FB3 /* ViewController.m */,
 				EC6DF9731A13B70900CF6FB3 /* Main.storyboard */,
 				EC6DF9761A13B70900CF6FB3 /* Images.xcassets */,
+				EC9BAFB21A13C47E00441C1E /* playbutton.png */,
+				EC9BAFB41A13EBB100441C1E /* pausebutton.png */,
+				EC9BAFB61A13F72E00441C1E /* prevbutton.png */,
+				EC9BAFB81A13F73400441C1E /* nextbutton.png */,
 				EC6DF9781A13B70900CF6FB3 /* LaunchScreen.xib */,
 				EC6DF9691A13B70900CF6FB3 /* Supporting Files */,
 			);
@@ -168,6 +180,7 @@
 				TargetAttributes = {
 					EC6DF9651A13B70900CF6FB3 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = K4XCB84M6V;
 					};
 					EC6DF97E1A13B70900CF6FB3 = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,7 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6DF9751A13B70900CF6FB3 /* Main.storyboard in Resources */,
+				EC9BAFB31A13C47E00441C1E /* playbutton.png in Resources */,
+				EC9BAFB71A13F72F00441C1E /* prevbutton.png in Resources */,
+				EC9BAFB91A13F73400441C1E /* nextbutton.png in Resources */,
 				EC6DF97A1A13B70900CF6FB3 /* LaunchScreen.xib in Resources */,
+				EC9BAFB51A13EBB100441C1E /* pausebutton.png in Resources */,
 				EC6DF9771A13B70900CF6FB3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MediaPlayerThing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MediaPlayerThing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +431,7 @@
 				EC6DF98B1A13B70900CF6FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC6DF98C1A13B70900CF6FB3 /* Build configuration list for PBXNativeTarget "MediaPlayerThingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +440,7 @@
 				EC6DF98E1A13B70900CF6FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
